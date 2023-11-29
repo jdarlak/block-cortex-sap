@@ -50,39 +50,39 @@
     col: 6
     width: 6
     height: 4
-  - title: Cancelled Orders
-    name: Cancelled Orders
-    model: cortex_jdarlak_sap
-    explore: sales_orders
-    type: single_value
-    fields: [sales_orders.canceled_order_percentage]
-    limit: 500
-    column_limit: 50
-    custom_color_enabled: true
-    show_single_value_title: true
-    show_comparison: false
-    comparison_type: value
-    comparison_reverse_colors: false
-    show_comparison_label: true
-    enable_conditional_formatting: false
-    conditional_formatting_include_totals: false
-    conditional_formatting_include_nulls: false
-    value_format: 0.00"%"
-    defaults_version: 1
-    hidden_fields: []
-    y_axes: []
-    listen:
-      Year: sales_orders.creation_date_erdat_date
-      Division: divisions_md.division_name_vtext
-      Currency: currency_conversion_new.tcurr
-      Region: countries_md.country_name_landx
-      Sales Org: sales_organizations_md.sales_org_name_vtext
-      Distribution Channel: distribution_channels_md.distribution_channel_name_vtext
-      Product: materials_md.material_text_maktx
-    row: 4
-    col: 18
-    width: 6
-    height: 4
+#   - title: Cancelled Orders
+#     name: Cancelled Orders
+#     model: cortex_jdarlak_sap
+#     explore: sales_orders
+#     type: single_value
+#     fields: [sales_orders.canceled_order_percentage]
+#     limit: 500
+#     column_limit: 50
+#     custom_color_enabled: true
+#     show_single_value_title: true
+#     show_comparison: false
+#     comparison_type: value
+#     comparison_reverse_colors: false
+#     show_comparison_label: true
+#     enable_conditional_formatting: false
+#     conditional_formatting_include_totals: false
+#     conditional_formatting_include_nulls: false
+#     value_format: 0.00"%"
+#     defaults_version: 1
+#     hidden_fields: []
+#     y_axes: []
+#     listen:
+#       Year: sales_orders.creation_date_erdat_date
+#       Division: divisions_md.division_name_vtext
+#       Currency: currency_conversion_new.tcurr
+#       Region: countries_md.country_name_landx
+#       Sales Org: sales_organizations_md.sales_org_name_vtext
+#       Distribution Channel: distribution_channels_md.distribution_channel_name_vtext
+#       Product: materials_md.material_text_maktx
+#     row: 4
+#     col: 18
+#     width: 6
+#     height: 4
   - title: Return Order
     name: Return Order
     model: cortex_jdarlak_sap

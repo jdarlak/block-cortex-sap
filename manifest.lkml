@@ -1,15 +1,15 @@
 constant: CONNECTION_NAME {
-  value: "cortex-central-demo-project"
+  value: "darlak_project_dataset"
   export: override_required
 }
 
 constant: GCP_PROJECT {
-  value: "cortex-central-demo-project"
+  value: "cortex-technical-enablement"
   export: override_required
 }
 
 constant: REPORTING_DATASET {
-  value: "SAP_REPORTING"
+  value: "CORTEX_SAP_ECC_REPORTING"
   export: override_required
 }
 
